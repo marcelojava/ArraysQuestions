@@ -1,13 +1,10 @@
 package encontrarNumeroArray;
 
-import com.sun.istack.internal.NotNull;
-
-import java.util.Arrays;
 
 public class EncontrarNumeroArray {
 
     //PROCURAR EM UM ARRAY UM NUMERO ESPECIFICO SEM FAZER PESQUISA LINEAR
-    public int isExisteNumeroArray(@NotNull int[] array, @NotNull int numero) {
+    public int isExisteNumeroArray(int[] array, int numero) {
         //Primeiro passo de uma boa pesquisa é ordenar o array
         array = ordernar(array);
 
